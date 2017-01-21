@@ -15,6 +15,10 @@
 		47D673D01E319B03007F13C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47D673CE1E319B03007F13C9 /* LaunchScreen.storyboard */; };
 		47D673DB1E319B04007F13C9 /* test_banhuoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D673DA1E319B04007F13C9 /* test_banhuoTests.m */; };
 		47D673E61E319B04007F13C9 /* test_banhuoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D673E51E319B04007F13C9 /* test_banhuoUITests.m */; };
+		47D673F61E31BB30007F13C9 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D673F41E31BB30007F13C9 /* CollectionViewCell.m */; };
+		47D673F71E31BB30007F13C9 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47D673F51E31BB30007F13C9 /* CollectionViewCell.xib */; };
+		47D673FE1E31BC13007F13C9 /* CollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D673FC1E31BC13007F13C9 /* CollectionReusableView.m */; };
+		47D673FF1E31BC13007F13C9 /* CollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47D673FD1E31BC13007F13C9 /* CollectionReusableView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,12 @@
 		47D673E11E319B04007F13C9 /* test_banhuoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test_banhuoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		47D673E51E319B04007F13C9 /* test_banhuoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test_banhuoUITests.m; sourceTree = "<group>"; };
 		47D673E71E319B04007F13C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47D673F31E31BB30007F13C9 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		47D673F41E31BB30007F13C9 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		47D673F51E31BB30007F13C9 /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		47D673FB1E31BC13007F13C9 /* CollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionReusableView.h; sourceTree = "<group>"; };
+		47D673FC1E31BC13007F13C9 /* CollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionReusableView.m; sourceTree = "<group>"; };
+		47D673FD1E31BC13007F13C9 /* CollectionReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionReusableView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +115,12 @@
 				47D673C41E319B03007F13C9 /* AppDelegate.m */,
 				47D673C61E319B03007F13C9 /* ViewController.h */,
 				47D673C71E319B03007F13C9 /* ViewController.m */,
+				47D673F31E31BB30007F13C9 /* CollectionViewCell.h */,
+				47D673F41E31BB30007F13C9 /* CollectionViewCell.m */,
+				47D673F51E31BB30007F13C9 /* CollectionViewCell.xib */,
+				47D673FB1E31BC13007F13C9 /* CollectionReusableView.h */,
+				47D673FC1E31BC13007F13C9 /* CollectionReusableView.m */,
+				47D673FD1E31BC13007F13C9 /* CollectionReusableView.xib */,
 				47D673C91E319B03007F13C9 /* Main.storyboard */,
 				47D673CC1E319B03007F13C9 /* Assets.xcassets */,
 				47D673CE1E319B03007F13C9 /* LaunchScreen.storyboard */,
@@ -246,8 +262,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47D673FF1E31BC13007F13C9 /* CollectionReusableView.xib in Resources */,
 				47D673D01E319B03007F13C9 /* LaunchScreen.storyboard in Resources */,
 				47D673CD1E319B03007F13C9 /* Assets.xcassets in Resources */,
+				47D673F71E31BB30007F13C9 /* CollectionViewCell.xib in Resources */,
 				47D673CB1E319B03007F13C9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,7 +292,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				47D673C81E319B03007F13C9 /* ViewController.m in Sources */,
+				47D673FE1E31BC13007F13C9 /* CollectionReusableView.m in Sources */,
 				47D673C51E319B03007F13C9 /* AppDelegate.m in Sources */,
+				47D673F61E31BB30007F13C9 /* CollectionViewCell.m in Sources */,
 				47D673C21E319B03007F13C9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
